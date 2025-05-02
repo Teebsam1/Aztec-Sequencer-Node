@@ -111,10 +111,10 @@ screen -S aztec
 ```
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
-  --l1-rpc-urls RPC_URL  \
-  --l1-consensus-host-urls BEACON_URL \
-  --sequencer.validatorPrivateKey 0xYourPrivateKey \
-  --sequencer.coinbase 0xYourAddress \
+  --l1-rpc-urls [RPC_URL](https://eth-sepolia.g.alchemy.com/v2/vFLSEkqEkTX89KDOnmzjeeoExRkIgyIG)  \
+  --l1-consensus-host-urls [BEACON_URL](https://rpc.drpc.org/eth/sepolia/beacon) \
+  --sequencer.validatorPrivateKey 0x994e85155d14a484fcf02696c2842e466e28f7f8cbe31cffb2ffbed69e273ed5 \
+  --sequencer.coinbase 0x044b5064dd1BCd73BA8Bf2A45638cf938646F799 \
   --p2p.p2pIp IP
 ```
 Replace the following variables before you Run Node:
